@@ -1,4 +1,9 @@
-import { Router, Route, Routes, Navigate } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import Home from "./components/Home/Home";
 
 function App() {
@@ -6,7 +11,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/" element={Home} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Router>
     </>

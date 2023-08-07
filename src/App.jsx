@@ -8,8 +8,9 @@ import { useState, useEffect } from "react";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./components/Home/Home";
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 
 function App() {
   // const [load, upadateLoad] = useState(true);
@@ -28,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/project" element={<Projects />} /> */}
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/about" element={<About />} />
           {/* <Route path="/resume" element={<Resume />} /> */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

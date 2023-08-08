@@ -12,6 +12,7 @@ import {
   SiMysql,
   SiNestjs,
   SiStyledcomponents,
+  SiDotnet,
 } from "react-icons/si";
 
 function Techstack() {
@@ -22,6 +23,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDotnet />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />

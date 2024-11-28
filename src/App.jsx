@@ -12,7 +12,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Projects from "./components/Projects";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 import Preloader from "./components/Preloader";
 import ScrollToTop from "./components/ScrollToTop";
@@ -37,7 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          {/* <Route path="/resume" element={<Resume />} /> */}
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
